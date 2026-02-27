@@ -1,0 +1,20 @@
+[package]
+name = "sfo-ip"
+version = "0.1.0"
+edition = "2024"
+description = "Reference https://github.com/lionsoul2014/ip2region"
+license-file = "LICENSE"
+repository = "https://github.com/wugren/sfo-ip.git"
+
+[dependencies]
+tracing = "0.1"
+thiserror = "2"
+chrono = "0.4"
+bytes = "1"
+num-derive = "0.4.2"
+num-traits = "0.2.19"
+itertools = "0.14"
+
+[dev-dependencies]
+criterion = "0.7"
+rand = "0.9"
